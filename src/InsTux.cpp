@@ -39,7 +39,7 @@ int __attribute__((constructor)) instux_init()
 
     MouseSim::mouseInit();
 
-    Settings::LoadConfig();
+    //Settings::LoadConfig();
     
     Msg("++++ InsTux loading complete! ++++\n");
     return 0;
